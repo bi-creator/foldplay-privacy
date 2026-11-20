@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FoldPlay: dual-screen handheld games, built for foldable iPhone</title>
+<meta name="description" content="FoldPlay plays your own dual-screen handheld game files on iPhone and iPad, with a fold layout for foldable iPhone. Works offline, no account, no ads, no tracking.">
+<meta name="color-scheme" content="light dark">
+<style>
+:root{--bg:#f7f5fb;--fg:#211d2b;--muted:#5f5870;--accent:#5b3fa0;--card:#ffffff;--line:#e2dcec;--focus:#1a56c4}
+@media (prefers-color-scheme:dark){:root{--bg:#14121a;--fg:#ece8f5;--muted:#aaa2bd;--accent:#c4b2ff;--card:#1e1b27;--line:#332e40;--focus:#8db4ff}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:1.0625rem/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.skip{position:absolute;left:-999px;top:0;background:var(--card);color:var(--fg);padding:.5rem 1rem}
+.skip:focus{left:0;z-index:10}
+header,main,footer{max-width:42rem;margin:0 auto;padding:1rem 1.25rem}
+header{padding-top:2rem}
+h1{font-size:2rem;line-height:1.2;margin:0 0 .25rem;color:var(--accent)}
+h2{font-size:1.25rem;margin:2rem 0 .5rem}
+p{margin:.5rem 0 1rem}
+.tag{color:var(--muted);margin:0}
+ul{padding-left:1.25rem}
+li{margin:.35rem 0}
+a{color:var(--accent);text-underline-offset:.15em}
+a:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:2px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:.75rem;padding:1rem 1.25rem;margin:1.5rem 0}
+footer{color:var(--muted);font-size:.9375rem;border-top:1px solid var(--line);margin-top:2rem}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <h1>FoldPlay</h1>
+  <p class="tag">Dual-screen handheld games, built for foldable iPhone. For iPhone and iPad.</p>
+</header>
+<main id="main">
+  <p>FoldPlay plays your own Nintendo DS game files. Fold your iPhone halfway and the game sits on the top screen while the touch screen and controls sit on the bottom, just like the original handheld.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Fold layout for foldable iPhone: game on one half, touch screen and controls on the other.</li>
+    <li>Portrait and landscape layouts on iPhone and iPad.</li>
+    <li>Switchable controller styles and shell colours.</li>
+    <li>Quick save and load, plus named save states with a picture of each.</li>
+    <li>Import game files from the Files app, from another app, or by dropping them in FoldPlay's folder.</li>
+  </ul>
+
+  <div class="card">
+    <h2 style="margin-top:0">Private by design</h2>
+    <p style="margin-bottom:0">Works fully offline. No account, no ads, no analytics, no tracking and no data collected. Your games and saves stay on your device. Read the full <a href="/privacy">privacy policy</a>.</p>
+  </div>
+
+  <h2>Games</h2>
+  <p>FoldPlay includes no games, BIOS or firmware. Import only game files you have the right to use, such as free homebrew games or your own backups.</p>
+
+  <h2>Open source</h2>
+  <p>FoldPlay is built on the open-source melonDS emulator and is released under the GNU GPL v3. The complete source code is on <a href="https://github.com/bi-creator/DualDS">GitHub</a>.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or feedback: <a href="mailto:manjithreddy096@gmail.com">manjithreddy096@gmail.com</a></p>
+</main>
+<footer>
+  <p>FoldPlay is made by Manjith, an independent developer in Bengaluru, India. Not affiliated with or endorsed by Nintendo; Nintendo DS is a trademark of Nintendo. <a href="/privacy">Privacy policy</a></p>
+</footer>
+</body>
+</html>
