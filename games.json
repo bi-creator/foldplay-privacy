@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "games": [
+    {
+      "id": "back-alley-brawl",
+      "productID": "com.bicreator.dualds.backalleybrawl",
+      "title": "Back Alley Brawl",
+      "tagline": "Street brawler \u00b7 3 stages \u00b7 3 bosses",
+      "details": "Fight through the night street, the harbor docks and the neon rooftops. Punch combos, kicks, jump kicks and a spin special; smash trash cans for food. Plays on both screens, made for the iPhone fold.",
+      "file": "games/back_alley_brawl.nds",
+      "sha256": "3167391b4acac3acf12c9a0e051784b35f566e65991bea0e5990d4f4af097464",
+      "size": 184832,
+      "artwork": "https://foldplay-privacy.vercel.app/games/back-alley-brawl.png"
+    }
+  ]
+}

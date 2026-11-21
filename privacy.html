@@ -34,7 +34,7 @@ footer{color:var(--muted);font-size:.9375rem;border-top:1px solid var(--line);ma
 <header>
   <p class="meta"><a href="/">FoldPlay</a></p>
   <h1>Privacy Policy</h1>
-  <p class="meta">FoldPlay for iPhone and iPad (com.bicreator.dualds), version 1.0<br>Last updated: 21 November 2026 (in-app purchases added)</p>
+  <p class="meta">FoldPlay for iPhone and iPad (com.bicreator.dualds), version 1.0<br>Last updated: 21 November 2026 (game store list and downloads)</p>
 </header>
 <main id="main">
   <div class="summary" role="note">
@@ -57,7 +57,7 @@ footer{color:var(--muted);font-size:.9375rem;border-top:1px solid var(--line);ma
   <p>All of this is used only to run your games on your device. FoldPlay does not use the microphone, camera, Photos, location, contacts, Bluetooth or the local network. It asks for access to Apple Music only if you choose to connect it for the soundtrack.</p>
 
   <h2>3. What we collect</h2>
-  <p>Nothing. We do not collect personal information, game files, saves, location, contacts, device identifiers or usage data. The app has no account or login, no ads, no analytics, no tracking and no crash-reporting service. We have no server. The app makes no internet connections of its own, except the Apple Music requests described in section 6 when you use the soundtrack; those go to Apple, not to us.</p>
+  <p>Nothing. We do not collect personal information, game files, saves, location, contacts, device identifiers or usage data. The app has no account or login, no ads, no analytics, no tracking and no crash-reporting service. We run no server that receives your data. The app connects to the internet only for: the FoldPlay Store's game list (section 7), game downloads from Apple (section 7), and the Apple Music requests described in section 6 when you use the soundtrack.</p>
   <p>The only link out of the app is "View the complete source code" in About, which opens our public source code page on GitHub in your browser. GitHub's own privacy policy applies to that website.</p>
 
   <h2>4. Where your data is stored</h2>
@@ -84,7 +84,9 @@ footer{color:var(--muted);font-size:.9375rem;border-top:1px solid var(--line);ma
   <ul>
     <li>Apple handles the whole payment. Your card, UPI or bank details are never shared with us.</li>
     <li>As for any App Store purchase, Apple gives the developer sales reports (such as the date and country, without your name) in App Store Connect. We use them only for support.</li>
-    <li>To know which games you own, the app asks the App Store on your device which in-app purchases your Apple Account owns ("Restore Purchases" does the same on demand). A bought game is then added to your library on your device. Nothing is sent to us.</li>
+    <li>To know which games you own, the app asks the App Store on your device which in-app purchases your Apple Account owns ("Restore Purchases" does the same on demand). Nothing is sent to us.</li>
+    <li><strong>Game list.</strong> When you open the store, the app downloads the list of games (titles, descriptions, App Store product codes and pictures) from this website, foldplay-privacy.vercel.app, which is hosted by Vercel. Like any website, Vercel's servers handle your IP address to deliver the file, under the <a href="https://vercel.com/legal/privacy-policy">Vercel Privacy Policy</a>. The request contains no account, identifier or information about you, and we do not keep logs of it.</li>
+    <li><strong>Game downloads.</strong> Only after the App Store confirms on your device that your Apple Account owns a game does the app ask Apple to download it. Games are hosted by Apple and delivered through iOS, not through us. The game is checked and added to your library on your device.</li>
     <li>Apple processes purchases under the <a href="https://www.apple.com/legal/internet-services/itunes/">Apple Media Services Terms</a> and the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.</li>
   </ul>
 
