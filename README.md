@@ -3,7 +3,7 @@
 A tiny static site (two HTML files, inline CSS, no scripts, no external fonts) for FoldPlay, the iPhone and iPad app built from [DualDS](https://github.com/bi-creator/DualDS).
 
 - `index.html`: short app page with a link to the privacy policy and the contact email.
-- `privacy.html`: the privacy policy (dated 20 November 2026).
+- `privacy.html`: the privacy policy (dated 21 November 2026).
 - `vercel.json`: `cleanUrls: true`, so `/privacy` serves `privacy.html`.
 
 ## Deploy on Vercel
